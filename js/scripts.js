@@ -184,23 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Keith and Hannah's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('May 28, 2022 07:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('May 29, 2022 03:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Bottom Lounge, Chicago IL',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you at our wedding!"
         }
     });
 
@@ -255,15 +255,15 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
+    var bottom_lounge = {lat: 41.885416427716876, lng: -87.66173413119103};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
-        center: la_fiesta,
+        center: bottom_lounge,
         scrollwheel: false
     });
 
     var marker = new google.maps.Marker({
-        position: la_fiesta,
+        position: bottom_lounge,
         map: map
     });
 }
