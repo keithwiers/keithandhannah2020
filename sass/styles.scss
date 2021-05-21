@@ -293,7 +293,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(175, 208, 227, .88);
   z-index: 999;
   width: 100%;
 }
@@ -328,7 +328,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $footer-primary;
         padding-right: 25px;
 
         &:hover {
